@@ -8,3 +8,6 @@ sidebar:
 ---
 
 Pages can be organized into folders.
+
+
+![Screenshot](fanta.png)
