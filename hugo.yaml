@@ -1,0 +1,59 @@
+# Hugo configuration file
+title: fanta.bio Documentation
+
+theme: fantabio
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Docs
+      pageRef: /docs
+      weight: 1
+    - name: About
+      pageRef: /about
+      weight: 2
+    - name: fanta.bio ↗
+      url: "https://fanta.bio"
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+
+params:
+  navbar:
+    displayTitle: fa
+    displayLogo: true
+    logo:
+      path: images/logo.svg
+      dark: images/logo-dark.svg
+      width: 40
+      height: 20
+      # link: /
+      #width: wide
+
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: normal
+
+  theme:
+    # light | dark | system
+    default: light
+    displayToggle: false
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
+
+  editURL:
+    enable: false
+    base: "https://github.com/fanta-bio/docs/edit/main/content"
