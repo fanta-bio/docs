@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: fanta.bio Documentation
+title: Documentation
 
 theme: fantabio
 
@@ -19,7 +19,7 @@ menu:
       pageRef: /docs
       weight: 1
     - name: About
-      pageRef: /about
+      pageRef: https://fanta.bio/about
       weight: 2
     - name: fanta.bio ↗
       url: "https://fanta.bio"
@@ -31,13 +31,13 @@ menu:
 
 params:
   navbar:
-    displayTitle: fa
+    displayTitle: true
     displayLogo: true
     logo:
       path: images/logo.svg
       dark: images/logo-dark.svg
-      width: 40
-      height: 20
+      width: 60
+      # height: 20
       # link: /
       #width: wide
 
