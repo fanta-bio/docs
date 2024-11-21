@@ -57,3 +57,7 @@ params:
   editURL:
     enable: false
     base: "https://github.com/fanta-bio/docs/edit/main/content"
+
+services:
+  googleAnalytics:
+    ID: G-J9PSH6BNLB
