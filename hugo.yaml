@@ -16,7 +16,7 @@ markup:
 menu:
   main:
     - name: Docs
-      pageRef: /docs
+      pageRef: /v1.1/
       weight: 1
     - name: About
       pageRef: https://fanta.bio/about
