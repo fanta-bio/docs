@@ -9,6 +9,7 @@ This is the landing page for fanta.bio documentation.
 
 {{< cards >}}
   {{< card link="docs" title="Docs" icon="book-open" >}}
+  {{< card link="v1.1" title="v1.1" icon="book-open" >}}
   {{< card link="about" title="About" icon="user" >}}
 {{< /cards >}}
 
