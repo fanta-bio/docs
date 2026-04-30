@@ -76,9 +76,11 @@ Additional variations can be examined via the UCSC Genome Browser, for example g
 
 ## Cite us
 
-All data produced by **fanta.bio** is distributed under the [CC-BY 4.0 license](http://creativecommons.org/licenses/by/4.0/). When you use the data and/or the website, please attribute **fanta.bio** as the source.
+All data produced by **fanta.bio** is distributed under the [CC-BY 4.0 license](http://creativecommons.org/licenses/by/4.0/). When you use the data and/or the website, please cite the following:
 
-> fanta.bio: a database of functional genome annotations with transcriptional activities, https://fanta.bio/, 2024.
+<blockquote style="font-style: normal;">
+Nobusada T <em>et al.</em>, Update of the FANTOM web resource: enhancement for studying noncoding genomes. <em>Nucleic Acids Res.</em> <strong>53</strong> (D1), D419–D424 (2025). doi: <a href="https://doi.org/10.1093/nar/gkae1047">10.1093/nar/gkae1047</a>.
+</blockquote>
 
 
 ## Contact us
@@ -109,9 +111,9 @@ We are also grateful to [the UCSC Genome browser](https://genome.ucsc.edu/) and 
 
 
 ## References
-- Mitsuhashi N, Toyo-Oka L, Katayama T, Kawashima M, Kawashima S, Miyazaki K, Takagi T. TogoVar: A comprehensive Japanese genetic variation database. Hum Genome Var. 2022 Dec 12;9(1):44. doi: 10.1038/s41439-022-00222-9. PMID: 36509753; PMCID: PMC9744889.
-- Takada T, Fukuta K, Usuda D, Kushida T, Kondo S, Kawamoto S, Yoshiki A, Obata Y, Fujiyama A, Toyoda A, Noguchi H, Shiroishi T, Masuya H. MoG+: a database of genomic variations across three mouse subspecies for biomedical research. Mamm Genome. 2022 Mar;33(1):31-43. doi: 10.1007/s00335-021-09933-w. Epub 2021 Nov 15. PMID: 34782917; PMCID: PMC8913468.
-- Zou Z, Ohta T, Miura F, Oki S. ChIP-Atlas 2021 update: a data-mining suite for exploring epigenomic landscapes by fully integrating ChIP-seq, ATAC-seq and Bisulfite-seq data. Nucleic Acids Res. 2022 Jul 5;50(W1):W175-W182. doi: 10.1093/nar/gkac199. PMID: 35325188; PMCID: PMC9252733.
-- Abugessaisa I, Ramilowski JA, Lizio M, Severin J, Hasegawa A, Harshbarger J, Kondo A, Noguchi S, Yip CW, Ooi JLC, et al. FANTOM enters 20th year: expansion of transcriptomic atlases and functional annotation of non-coding RNAs. Nucleic Acids Res. 2021 Jan 8;49(D1):D892-D898. doi: 10.1093/nar/gkaa1054. PMID: 33211864; PMCID: PMC7779024.
-- Andersson R, Gebhard C, Miguel-Escalada I, Hoof I, Bornholdt J, Boyd M, Chen Y, Zhao X, Schmidl C, Suzuki T, et al. An atlas of active enhancers across human cell types and tissues. Nature. 2014 Mar 27;507(7493):455-461. doi: 10.1038/nature12787. PMID: 24670763; PMCID: PMC5215096.
-- Forrest AR, Kawaji H, Rehli M, Baillie JK, de Hoon MJ, Haberle V, Lassmann T, Kulakovskiy IV, Lizio M, Itoh M, et al. A promoter-level mammalian expression atlas. Nature. 2014 Mar 27;507(7493):462-70. doi: 10.1038/nature13182. PMID: 24670764; PMCID: PMC4529748.
+- Mitsuhashi N, Toyo-Oka L, Katayama T, Kawashima M, Kawashima S, Miyazaki K, Takagi T. TogoVar: A comprehensive Japanese genetic variation database. Hum Genome Var. 2022 Dec 12;9(1):44. doi: [10.1038/s41439-022-00222-9](https://doi.org/10.1038/s41439-022-00222-9). PMID: 36509753; PMCID: PMC9744889.
+- Takada T, Fukuta K, Usuda D, Kushida T, Kondo S, Kawamoto S, Yoshiki A, Obata Y, Fujiyama A, Toyoda A, Noguchi H, Shiroishi T, Masuya H. MoG+: a database of genomic variations across three mouse subspecies for biomedical research. Mamm Genome. 2022 Mar;33(1):31-43. doi: [10.1007/s00335-021-09933-w](https://doi.org/10.1007/s00335-021-09933-w). Epub 2021 Nov 15. PMID: 34782917; PMCID: PMC8913468.
+- Zou Z, Ohta T, Miura F, Oki S. ChIP-Atlas 2021 update: a data-mining suite for exploring epigenomic landscapes by fully integrating ChIP-seq, ATAC-seq and Bisulfite-seq data. Nucleic Acids Res. 2022 Jul 5;50(W1):W175-W182. doi: [10.1093/nar/gkac199](https://doi.org/10.1093/nar/gkac199). PMID: 35325188; PMCID: PMC9252733.
+- Abugessaisa I, Ramilowski JA, Lizio M, Severin J, Hasegawa A, Harshbarger J, Kondo A, Noguchi S, Yip CW, Ooi JLC, et al. FANTOM enters 20th year: expansion of transcriptomic atlases and functional annotation of non-coding RNAs. Nucleic Acids Res. 2021 Jan 8;49(D1):D892-D898. doi: [10.1093/nar/gkaa1054](https://doi.org/10.1093/nar/gkaa1054). PMID: 33211864; PMCID: PMC7779024.
+- Andersson R, Gebhard C, Miguel-Escalada I, Hoof I, Bornholdt J, Boyd M, Chen Y, Zhao X, Schmidl C, Suzuki T, et al. An atlas of active enhancers across human cell types and tissues. Nature. 2014 Mar 27;507(7493):455-461. doi: [10.1038/nature12787](https://doi.org/10.1038/nature12787). PMID: 24670763; PMCID: PMC5215096.
+- Forrest AR, Kawaji H, Rehli M, Baillie JK, de Hoon MJ, Haberle V, Lassmann T, Kulakovskiy IV, Lizio M, Itoh M, et al. A promoter-level mammalian expression atlas. Nature. 2014 Mar 27;507(7493):462-70. doi: [10.1038/nature13182](https://doi.org/10.1038/nature13182). PMID: 24670764; PMCID: PMC4529748.

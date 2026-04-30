@@ -1,11 +1,20 @@
 ---
-title: "How to use the fanta.bio v1.1.0 interface"
+title: "fanta.bio Website"
+linkTitle: "Website"
+description: "How to use the fanta.bio web interface — search, browse, and explore CREs, genes, and SNPs."
 date: 2024-10-01T20:08:00+09:00
+aliases:
+  - /v1.1/
+  - /v1.1
 prev: /
 draft: false
 ---
 
-In the top page of [fanta.bio](https://fanta.bio/), there are two frames to search CREs (cis-regulatory elements) in the in-house interface (left form) and in the UCSC Genome Browser (right form) (**Figure 1**). The left form accepts Keywords of CRE ID, CRE Name, TFs and others, and external identifiers, and Organism (Human, Mouse, or Any). The right form accepts Keywords or genomic coordinates that accept in the UCSC Genome Browser, Organisms (Human or Mouse) and Genome Assembly (hg38 or mm10).
+The [fanta.bio](https://fanta.bio/) website is the primary interface for exploring functional genome annotations. This guide walks through the search forms, CRE record pages, and advanced search features.
+
+## Search forms
+
+On the homepage there are two frames to search CREs (cis-regulatory elements) — the in-house interface (left form) and the UCSC Genome Browser (right form) (**Figure 1**). The left form accepts Keywords of CRE ID, CRE Name, TFs and others, and external identifiers, and Organism (Human, Mouse, or Any). The right form accepts Keywords or genomic coordinates that accept in the UCSC Genome Browser, Organisms (Human or Mouse) and Genome Assembly (hg38 or mm10).
 
 ![The top page of the fanta.bio web site](Figure1.png "Figure 1: Top page of fanta.bio web site")
 
