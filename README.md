@@ -1,48 +1,65 @@
-# fanta-bio Documentation Website
+# fanta.bio Documentation
 
-This repository contains the source code for the fanta-bio documentation website. This site is built using [Hugo](https://gohugo.io/), a fast and flexible static site generator.
+Source for [docs.fanta.bio](https://docs.fanta.bio), built with [Hugo](https://gohugo.io/) and the [Hextra](https://imfing.github.io/hextra/) theme.
 
 ## Prerequisites
 
-- **Git**: To clone and commit to this repository.
-- **Hugo**: Version **0.124.0** or higher is required. [Install Hugo](https://gohugo.io/installation/).
+- **Git** with submodule support
+- **Hugo extended**, v0.132 or newer ([install](https://gohugo.io/installation/))
 
-## Obtaining the Source Code
+## Setup
 
-1. **Clone the repository**:
+The Hextra theme is pulled in as a Git submodule, so the clone needs `--recurse-submodules` (or `git submodule update --init` after the fact):
 
-   ```bash
-   git clone https://github.com/fanta-bio/docs.git fanta-bio-docs
-   ```
+```bash
+git clone --recurse-submodules https://github.com/fanta-bio/docs.git fanta-bio-docs
+cd fanta-bio-docs
+```
 
-2. **Navigate to the project directory**:
+If you forgot the flag:
 
-   ```bash
-   cd fanta-bio-docs
-   ```
+```bash
+git submodule update --init
+```
 
-## Local Development
+## Local development
 
-To run the website locally:
+```bash
+hugo server -p 8080
+```
 
-1. **Start the Hugo server**:
+Open <http://localhost:8080/>. Live reload is on by default — edits to anything under `content/`, `static/`, `hugo.yaml`, or the theme show up in the browser within a second or two.
 
-   ```bash
-    server -w -p 8080
-   ```
+## Content layout
 
-   The `-w` flag enables live reloading, and the `-p` flag specifies the port number. You can change the port number to any other available port.
+```
+content/
+├── _index.md      ← homepage with section cards
+├── about.md       ← what fanta.bio is + how to cite
+├── website/       ← guide to the fanta.bio web interface
+├── api/           ← REST API at api.fanta.bio
+└── mcp/           ← MCP server at mcp.fanta.bio/mcp (for AI assistants)
+```
 
-2. **View the site**:
+The `about.md` content here is kept in sync with `data/pages/about.md` in the [`fanta-bio-web`](https://github.com/fanta-bio/fanta-bio-web) repo, which is the source of truth.
 
-   Open your web browser and go to `http://localhost:8080/`.
+## Updating the theme
 
-   The site supports live reloading, so any changes you make will automatically refresh in the browser.
+```bash
+cd themes/hextra
+git fetch --tags
+git checkout vX.Y.Z   # latest release
+cd ../..
+git add themes/hextra
+git commit -m "chore(theme): bump hextra to vX.Y.Z"
+```
 
-## Editing Guide
+## Deployment
 
-For detailed instructions on how to edit the documentation pages please refer [Editing Guide](http://docs.fanta.bio/editing-guide/).
+The site builds to `public/` and deploys to Cloudflare Workers Static Assets. The `static/_redirects` file handles edge-level redirects (e.g. legacy `/v1.1/` → `/website/`).
+
+Local Cloudflare deploy config (`wrangler.toml`) is gitignored — set up your own if you need to deploy from a fork.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+[MIT](LICENSE)
