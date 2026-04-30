@@ -1,0 +1,8 @@
+# Legacy URL redirects
+# Format: <from> <to> <status>
+# Status 301 = permanent (cached), 302 = temporary
+
+# v1.1 docs were renamed to /website/ (April 2026)
+/v1.1            /website/         301
+/v1.1/           /website/         301
+/v1.1/*          /website/:splat   301
